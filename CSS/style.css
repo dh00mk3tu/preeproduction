@@ -40,6 +40,8 @@
 .menu {
     color: #000;
     position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Responsive */
