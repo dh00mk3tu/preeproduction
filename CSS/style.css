@@ -60,9 +60,6 @@
 
 .menu ul li:hover {
     background: #857103;
-    text-decoration: underline;
-    text-underline-position: right;
-
 }
 
 /* Responsive */
