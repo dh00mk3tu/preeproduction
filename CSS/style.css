@@ -57,17 +57,15 @@
     font-size: 35px;
     padding-left: 45px;
 }
-.menu ul li:hover {
-    
-}
 
 .menu-item::after {
     margin-top: 4px;
     content: '';
     display: block;
-    width: 0;
+    width: 15px;
     height: 5px;
-    background: #fff;
+    background: #353535;
+
     transition: width .3s;
 }
 .menu-item:hover::after {
