@@ -66,11 +66,11 @@
     width: 20px;
     height: 5px;
     background: #353535;
-    transition: width .3s;
+    transition: width .4s ease-in-out;
 }
 .menu-item:hover::after {
     width: 100%;
-    transition: width .3s;
+    transition: width .4s ease-in-out;
 }
 
 /* Responsive */
