@@ -39,7 +39,7 @@
 
 .menu {
     color: #353535;
-
+    transition: all .5s;
     /* transform: translate(-50%, -50%); */
     /* position: absolute; */
 }
@@ -58,7 +58,7 @@
     padding-left: 45px;
 }
 .menu ul li:hover {
-    font-size: 40px;
+    
 }
 
 .menu-item::after {
