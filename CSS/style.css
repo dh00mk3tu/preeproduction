@@ -29,11 +29,9 @@
 .splash header {
     font-family: Poppins;
     transform: translate(-50%, -50%);
-    overflow: hidden;
     left: 50%;
     top: 45%;
     position: absolute;
-    word-wrap: none;
     font-size: 250px;
 }
 
