@@ -59,10 +59,10 @@
 }
 
 .menu-item::after {
-    margin-top: 4px;
+    margin-top: .01em;
     content: '';
     display: block;
-    width: 15px;
+    width: 20px;
     height: 5px;
     background: #353535;
 
