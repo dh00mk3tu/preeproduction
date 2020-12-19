@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @font-face{
     font-family: 'One';
     src: url(/Resources/main.ttf) format('truetype');
@@ -22,19 +22,18 @@
     everything vertically and horizontally*/
     overflow: hidden;
     color: #ffffff;
-    font-family: 'One';
     height: 100vh;
     background: #ffda00;
 }
 
 .splash header {
+    font-family: Poppins;
     transform: translate(-50%, -50%);
     overflow: hidden;
     left: 50%;
     top: 45%;
-
     position: absolute;
     word-wrap: none;
-    font-size: 223px;
+    font-size: 250px;
 }
 
