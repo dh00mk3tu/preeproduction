@@ -39,6 +39,7 @@
 
 .menu {
     color: #000;
+    position: absolute;
 }
 
 /* Responsive */
