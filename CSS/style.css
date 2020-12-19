@@ -9,6 +9,7 @@
 }
 
 * {
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +21,6 @@
     align-items: center;  */
     /* justify content used with align items aligns 
     everything vertically and horizontally*/
-    overflow: hidden;
     color: #ffffff;
     height: 100vh;
     background: #ffda00;
