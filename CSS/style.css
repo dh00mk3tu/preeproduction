@@ -14,15 +14,16 @@
 }
 
 .splash {
-    word-wrap: initial;
+    /* word-wrap: initial;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;  */
     /* justify content used with align items aligns 
     everything vertically and horizontally*/
     overflow: hidden;
     color: #ffffff;
     height: 100vh;
+    transform: translateY(-50%, -50%);
     background: #ffda00;
 }
 
@@ -32,5 +33,6 @@
     position: relative;
     font-family: 'main';
     word-wrap: none;
-    font-size: 250px;
+    font-size: 200px;
 }
+
