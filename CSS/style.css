@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @font-face{
-    src: url(/Resources/CHWDSH.TTF);
+    src: url(Resources/CHWDSH.TTF);
     font-family: main;
 }
 @font-face{
-    src: url(/Resources/segoeui.ttf);
+    src: url(Resources/segoeui.ttf);
     font-family: secondaryFont;
 }
 
@@ -34,6 +34,6 @@
     position: relative;
     font-family: 'main';
     word-wrap: none;
-    font-size: 200px;
+    font-size: 223px;
 }
 
