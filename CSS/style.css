@@ -31,8 +31,9 @@
     overflow: hidden;
     left: 4.6em;
     top: 2.2em;
+
     position: relative;
-    font-family: 'main';
+    font-family: main;
     word-wrap: none;
     font-size: 223px;
 }
