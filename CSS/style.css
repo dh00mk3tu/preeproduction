@@ -73,6 +73,11 @@
     transition: width .4s ease-in-out;
 }
 
+.menu-item:hover::after:active {
+    background: #ce2424;
+
+}   
+
 /* Responsive */
 
 
