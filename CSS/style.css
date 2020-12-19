@@ -35,3 +35,29 @@
     font-size: 250px;
 }
 
+
+/* Responsive */
+
+
+@media (max-width:1280px) {
+    .splash header {
+         font-size: 260px;
+    }
+}
+
+@media (max-width:770px) {
+    .splash header {
+         font-size: 140px;
+    }
+}
+
+@media (max-width:450px) {
+    .splash header {
+         font-size: 75px;
+    }
+}
+@media (max-width:380px) {
+    .splash header {
+         font-size: 70px;
+    }
+}
