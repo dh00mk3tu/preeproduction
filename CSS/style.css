@@ -38,7 +38,7 @@
 }
 
 .menu {
-    color: #a7a9ac;
+    color: #353535;
 
     /* transform: translate(-50%, -50%); */
     /* position: absolute; */
@@ -51,11 +51,15 @@
     flex-direction: row;
 }
 .menu ul li {
+    cursor: pointer;
     font-family: 'secondaryFont';
     font-size: 35px;
     margin-left: 10px;
 }
 
+.menu ul li:hover {
+    background: #857103;
+}
 
 /* Responsive */
 
