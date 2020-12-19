@@ -47,17 +47,17 @@
 
 @media (max-width:770px) {
     .splash header {
-         font-size: 140px;
+         font-size: 100px;
     }
 }
 
 @media (max-width:450px) {
     .splash header {
-         font-size: 75px;
+         font-size: 54px;
     }
 }
 @media (max-width:380px) {
     .splash header {
-         font-size: 70px;
+         font-size: 49px;
     }
 }
