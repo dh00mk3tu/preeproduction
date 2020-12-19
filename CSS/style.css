@@ -57,11 +57,17 @@
     font-size: 35px;
     padding-left: 45px;
 }
-.menu-item {
-
+.menu-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
 }
-.menu ul li:hover {
-    background: #857103;
+.menu-item:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 /* Responsive */
