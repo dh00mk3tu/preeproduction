@@ -38,7 +38,7 @@
 }
 
 .menu {
-    color: #000;
+    color: #a7a9ac;
 
     /* transform: translate(-50%, -50%); */
     /* position: absolute; */
@@ -52,8 +52,8 @@
 }
 .menu ul li {
     font-family: 'secondaryFont';
-    font-size: 25px;
-    margin-left: 15px;
+    font-size: 35px;
+    margin-left: 10px;
 }
 
 
