@@ -54,8 +54,9 @@
 .menu ul li {
     cursor: pointer;
     font-family: 'secondaryFont';
+    font-weight: lighter;
     font-size: 35px;
-    padding-left: 45px;
+    padding-right: 1.5em;
 }
 
 .menu-item::after {
@@ -65,7 +66,6 @@
     width: 20px;
     height: 5px;
     background: #353535;
-
     transition: width .3s;
 }
 .menu-item:hover::after {
