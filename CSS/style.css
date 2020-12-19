@@ -24,9 +24,11 @@
     color: #ffffff;
     height: 100vh;
     background: #ffda00;
+    overflow: hidden;
 }
 
 .splash header {
+    overflow: hidden;
     font-family: Poppins;
     transform: translate(-50%, -50%);
     left: 50%;
