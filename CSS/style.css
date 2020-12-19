@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @font-face{
-    src: url(/Resources/main.ttf);
-    font-family: One;
+    font-family: 'One';
+    src: url(/Resources/main.ttf) format('truetype');
 }
 @font-face{
     src: url(/Resources/second.ttf);
