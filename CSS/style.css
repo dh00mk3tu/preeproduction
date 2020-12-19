@@ -57,11 +57,16 @@
     font-size: 35px;
     padding-left: 45px;
 }
+.menu ul li:hover {
+    font-size: 40px;
+}
+
 .menu-item::after {
+    margin-top: 4px;
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 5px;
     background: #fff;
     transition: width .3s;
 }
