@@ -23,13 +23,14 @@
     overflow: hidden;
     color: #ffffff;
     height: 100vh;
-    transform: translateY(-50%, -50%);
     background: #ffda00;
 }
 
 .splash header {
+    transform: translate(-50%, -50%);
     overflow: hidden;
-    left: 0;
+    left: 4.6em;
+    top: 2.2em;
     position: relative;
     font-family: 'main';
     word-wrap: none;
