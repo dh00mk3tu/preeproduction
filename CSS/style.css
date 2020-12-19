@@ -44,6 +44,7 @@
     /* position: absolute; */
 }
 .menu ul {
+    text-align:center;
     position: fixed;
     top: 55%;
     left: 60%;
@@ -54,14 +55,14 @@
     cursor: pointer;
     font-family: 'secondaryFont';
     font-size: 35px;
-    margin-left: 10px;
+    margin-left: 45px;
 }
 
 .menu ul li:hover {
     background: #857103;
     text-decoration: underline;
     text-underline-position: right;
-    
+
 }
 
 /* Responsive */
