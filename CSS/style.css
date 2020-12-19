@@ -39,10 +39,14 @@
 
 .menu {
     color: #000;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    /* position: absolute; */
 }
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    width: 120%;
+}
+
 
 /* Responsive */
 
