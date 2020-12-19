@@ -55,9 +55,11 @@
     cursor: pointer;
     font-family: 'secondaryFont';
     font-size: 35px;
-    margin-left: 45px;
+    padding-left: 45px;
 }
+.menu-item {
 
+}
 .menu ul li:hover {
     background: #857103;
 }
