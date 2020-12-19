@@ -52,7 +52,8 @@
 }
 .menu ul li {
     font-family: 'secondaryFont';
-    margin: 1em;
+    font-size: 25px;
+    margin-left: 15px;
 }
 
 
