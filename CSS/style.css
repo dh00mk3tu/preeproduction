@@ -1,107 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"); */
 
-@font-face{
-    font-family: 'One';
-    src: url(/Resources/main.ttf) format('truetype');
+@font-face {
+  font-family: "One";
+  src: url("/Resources/main.ttf") format("truetype");
 }
-@font-face{
-    src: url(/Resources/second.ttf);
-    font-family: secondaryFont;
+@font-face {
+  src: url(/Resources/second.ttf);
+  font-family: secondaryFont;
 }
 
 * {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
-
+.menu-item a {
+  text-decoration: none;
+  color: black;
+}
 .splash {
-    font-family: 'One';
-    /* word-wrap: initial;
+  font-family: "One";
+  /* word-wrap: initial;
     display: flex;
     justify-content: center;
     align-items: center;  */
-    /* justify content used with align items aligns 
+  /* justify content used with align items aligns 
     everything vertically and horizontally*/
-    color: #ffffff;
-    height: 100vh;
-    background: #ffda00;
-    overflow: hidden;
+  color: #ffffff;
+  height: 100vh;
+  background: #ffda00;
+  overflow: hidden;
 }
 
 .splash header {
-    overflow: hidden;
-    font-family: Poppins;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 45%;
-    position: absolute;
-    font-size: 250px;
+  overflow: hidden;
+  font-family: Poppins;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+  position: absolute;
+  font-size: 250px;
 }
 
 .menu {
-    color: #353535;
-    transition: all .5s;
-    /* transform: translate(-50%, -50%); */
-    /* position: absolute; */
+  color: #353535;
+  transition: all 0.5s;
+  /* transform: translate(-50%, -50%); */
+  /* position: absolute; */
 }
 .menu ul {
-    text-align:center;
-    position: fixed;
-    top: 55%;
-    left: 60%;
-    display: flex;
-    flex-direction: row;
+  text-align: center;
+  position: fixed;
+  top: 55%;
+  left: 60%;
+  display: flex;
+  flex-direction: row;
 }
 .menu ul li {
-    cursor: pointer;
-    font-family: 'secondaryFont';
-    font-weight: lighter;
-    font-size: 35px;
-    padding-right: 1.5em;
+  cursor: pointer;
+  font-family: "secondaryFont";
+  font-weight: lighter;
+  font-size: 35px;
+  padding-right: 1.5em;
 }
 
 .menu-item::after {
-    margin-top: .01em;
-    content: '';
-    display: block;
-    width: 20px;
-    height: 5px;
-    background: #353535;
-    transition: width .4s ease-in-out;
+  margin-top: 0.01em;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 5px;
+  background: #353535;
+  transition: width 0.4s ease-in-out;
 }
 .menu-item:hover::after {
-    width: 100%;
-    transition: width .4s ease-in-out;
+  width: 100%;
+  transition: width 0.4s ease-in-out;
 }
 
 .menu-item:hover::after:active {
-    background: #ce2424;
-
-}   
+  background: #ce2424;
+}
 
 /* Responsive */
 
-
-@media (max-width:1280px) {
-    .splash header {
-         font-size: 167px;
-    }
+@media (max-width: 1280px) {
+  .splash header {
+    font-size: 167px;
+  }
 }
 
-@media (max-width:770px) {
-    .splash header {
-         font-size: 100px;
-    }
+@media (max-width: 770px) {
+  .splash header {
+    font-size: 100px;
+  }
 }
 
-@media (max-width:450px) {
-    .splash header {
-         font-size: 54px;
-    }
+@media (max-width: 450px) {
+  .splash header {
+    font-size: 54px;
+  }
 }
-@media (max-width:380px) {
-    .splash header {
-         font-size: 49px;
-    }
+@media (max-width: 380px) {
+  .splash header {
+    font-size: 49px;
+  }
 }
