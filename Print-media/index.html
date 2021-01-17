@@ -10,9 +10,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-<div class="pre-loader">
-<h1 class="title">Loading</h1>
-<div class="rainbow-marker-loader"></div>
+    <div class="pre-loader">
+<div class="cont">
+  <div class="paper"></div>
+  <button><div class='loader'>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>Deleting</button>
+  <div class="g-cont">
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+  </div>
+</div>
 </div>
     <div class="main-wrapper">
         <div class="print-box">
@@ -71,12 +90,12 @@
         </div>
     </div>
 </body>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-    setTimeout(function(){
-        $('.pre-loader').fadeToggle();
-    }, 1000);
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+setTimeout(function(){
+    $('.pre-loader').fadeToggle();
+}, 1000);
 </script>
+ 
 
 </html>

@@ -6,7 +6,7 @@
 }
 @font-face {
   src: url(/Resources/second.ttf);
-  font-family: secondaryFont;
+  font-family: "two";
 }
 
 * {
@@ -47,7 +47,7 @@
   font-family: Poppins;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 45%;
+  top: 50%;
   position: absolute;
   font-size: 250px;
 }
@@ -55,6 +55,7 @@
 .menu {
   color: #353535;
   transition: all 0.5s;
+  font-family: "two";
   /* transform: translate(-50%, -50%); */
   /* position: absolute; */
 }
@@ -67,31 +68,25 @@
   flex-direction: row;
 }
 .menu ul li {
+  padding: 5px;
+  margin: .5em;
+  text-decoration: none;
   cursor: pointer;
-  font-family: "secondaryFont";
-  font-weight: lighter;
+  font-family: "two";
+  /* font-weight: lighter; */
   font-size: 35px;
-  padding-right: 1.5em;
+  /* padding-right: 1.5em; */
 }
 
-.menu-item::after {
-  margin-top: 0.01em;
-  content: "";
-  display: block;
-  width: 20px;
-  height: 5px;
-  background: #353535;
-  transition: width 0.4s ease-in-out;
-}
-.menu-item:hover::after {
-  width: 100%;
-  transition: width 0.4s ease-in-out;
-}
+.menu ul li:hover {
+  color: rgb(0, 0, 0);
+  background-color: #f6d201;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: .5em;
+  padding: 5px;
 
-.menu-item:hover::after:active {
-  background: #ce2424;
 }
-
 /* Responsive */
 
 @media (max-width: 1280px) {
